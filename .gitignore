@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+
+Classic-Neural-Networks-Implementation/dogImages/*
+/Classic-Neural-Networks-Implementation/alexnet8_may_10.pth
+*/*.pth
+*/*.zip
+*/*.tgz
