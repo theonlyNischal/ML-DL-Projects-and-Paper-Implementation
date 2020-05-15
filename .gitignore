@@ -5,3 +5,7 @@
 */*.zip
 */*.tgz
 
+*.tgz
+*.zip
+*.pt
+
