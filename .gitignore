@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 
-1-Classic-Neural-Networks-Implementation/dogImages/*
+1_Classic_Neural_Networks_Implementation/dogImages/*
+6_Lung_Nodule_Analysis_Challenge/data/*
 */*.pth
 */*.zip
 */*.tgz
