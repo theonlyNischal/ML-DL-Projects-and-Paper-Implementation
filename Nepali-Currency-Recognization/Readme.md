@@ -1,3 +1,3 @@
 # Readme.md
 
-![Sample GIF](video.gif)
+![Sample GIF](cash-recognition.gif)
