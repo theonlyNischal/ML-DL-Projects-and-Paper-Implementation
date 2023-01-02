@@ -11,7 +11,7 @@ import nltk
 import numpy as np
 import pandas as pd
 from scipy.sparse import hstack
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 
@@ -70,6 +70,9 @@ def train(fold, model_name):
     # Calculate the accuracy on the validation data
     accuracy = accuracy_score(y_pred, y_valid)
     print(f"Fold: {fold}, Accuracy: {accuracy}")
+    auc = roc_auc_score(y_pred, y_valid)
+    print(f"Fold: {fold}, AUC: {auc}")
+
     # Save the model
     joblib.dump(
         model,
