@@ -22,7 +22,7 @@ def perform_hyperparameter_search(X_train, y_train, model_name):
     if model_name == "logistic_regression":
         # Create a LogisticRegression estimator
         model = LogisticRegression(random_state=0, tol=1e-5)
-        solvers = ['newton-cg', 'lbfgs', 'liblinear']
+        solvers = ['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga']
         penalty = ['l2']
         c_values = [100, 10, 1.0, 0.1, 0.01]
         grid_param = dict(solver=solvers,penalty=penalty,C=c_values)

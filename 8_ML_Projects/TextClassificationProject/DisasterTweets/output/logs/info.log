@@ -1,0 +1,120 @@
+2023-01-15 19:15:15,731 - utils_logger - INFO - {'precision': 0.8599562363238512, 'recall': 0.6198738170347003, 'f1_macro': 0.7822148665786803, 'f1_weighted': 0.7925580053355971}
+2023-01-15 19:35:45,439 - utils_logger - INFO - {'precision': 0.855, 'recall': 0.5394321766561514, 'f1_macro': 0.7437762208182241, 'f1_weighted': 0.7575504931575964}
+2023-01-15 19:38:47,775 - utils_logger - INFO - {'precision': 0.8483412322274881, 'recall': 0.521865889212828, 'f1_macro': 0.7219695022223216, 'f1_weighted': 0.7294808466130311}
+2023-01-15 19:41:54,238 - utils_logger - INFO - {'precision': 0.877030162412993, 'recall': 0.5897035881435257, 'f1_macro': 0.7725714134494701, 'f1_weighted': 0.7832285082737915}
+2023-01-15 19:44:28,645 - utils_logger - INFO - {'precision': 0.8778054862842892, 'recall': 0.5432098765432098, 'f1_macro': 0.7490915085616807, 'f1_weighted': 0.7606700974566497}
+2023-01-15 19:47:20,019 - utils_logger - INFO - {'precision': 0.8554216867469879, 'recall': 0.5362537764350453, 'f1_macro': 0.7363300399016455, 'f1_weighted': 0.7463590149277047}
+2023-01-15 19:49:14,640 - utils_logger - INFO - {'precision': 0.8599562363238512, 'recall': 0.6198738170347003, 'f1_macro': 0.7822148665786803, 'f1_weighted': 0.7925580053355971}
+2023-01-15 19:51:09,995 - utils_logger - INFO - {'precision': 0.8409542743538767, 'recall': 0.6166180758017493, 'f1_macro': 0.7634078858754161, 'f1_weighted': 0.7685521572700652}
+2023-01-15 19:53:14,140 - utils_logger - INFO - {'precision': 0.8611111111111112, 'recall': 0.6287051482059283, 'f1_macro': 0.7851767092633464, 'f1_weighted': 0.7944172831082774}
+2023-01-15 19:55:38,951 - utils_logger - INFO - {'precision': 0.832, 'recall': 0.6419753086419753, 'f1_macro': 0.7790360046457607, 'f1_weighted': 0.7870985514811033}
+2023-01-15 19:57:45,495 - utils_logger - INFO - {'precision': 0.8489065606361829, 'recall': 0.6450151057401813, 'f1_macro': 0.7837668196259997, 'f1_weighted': 0.7903650342425982}
+2023-01-15 19:57:58,401 - utils_logger - INFO - {'precision': 0.7912713472485768, 'recall': 0.6577287066246057, 'f1_macro': 0.7724357260844831, 'f1_weighted': 0.7814920724915084}
+2023-01-15 19:58:09,430 - utils_logger - INFO - {'precision': 0.8064516129032258, 'recall': 0.619533527696793, 'f1_macro': 0.7513529777654245, 'f1_weighted': 0.7563708788612076}
+2023-01-15 19:58:20,278 - utils_logger - INFO - {'precision': 0.8128440366972477, 'recall': 0.6911076443057722, 'f1_macro': 0.792879290648969, 'f1_weighted': 0.8001315054957602}
+2023-01-15 19:58:32,014 - utils_logger - INFO - {'precision': 0.8195777351247601, 'recall': 0.6589506172839507, 'f1_macro': 0.7812694610778443, 'f1_weighted': 0.7888023794723301}
+2023-01-17 13:04:31,968 - utils_logger - INFO - {'precision': 0.8513513513513513, 'recall': 0.6096774193548387, 'f1_macro': 0.776045050898852, 'f1_weighted': 0.7875456799340089}
+2023-01-17 13:07:49,181 - utils_logger - INFO - {'precision': 0.8599562363238512, 'recall': 0.6198738170347003, 'f1_macro': 0.7822148665786803, 'f1_weighted': 0.7925580053355971}
+2023-01-17 13:10:32,836 - utils_logger - INFO - {'precision': 0.8456659619450317, 'recall': 0.6309148264984227, 'f1_macro': 0.7821724289101237, 'f1_weighted': 0.7921344292736519}
+2023-01-17 13:17:57,588 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-01-17 13:17:57,588 - utils_logger - INFO - {'precision': 0.8456659619450317, 'recall': 0.6309148264984227, 'f1_macro': 0.7821724289101237, 'f1_weighted': 0.7921344292736519}
+2023-01-17 14:00:17,503 - utils_logger - INFO - Model Name: random_forest, Fold: 0
+2023-01-17 14:00:17,503 - utils_logger - INFO - {'precision': 0.855, 'recall': 0.5394321766561514, 'f1_macro': 0.7437762208182241, 'f1_weighted': 0.7575504931575964}
+2023-01-17 14:02:55,684 - utils_logger - INFO - Model Name: random_forest, Fold: 1
+2023-01-17 14:02:55,684 - utils_logger - INFO - {'precision': 0.8483412322274881, 'recall': 0.521865889212828, 'f1_macro': 0.7219695022223216, 'f1_weighted': 0.7294808466130311}
+2023-01-17 14:05:41,925 - utils_logger - INFO - Model Name: random_forest, Fold: 2
+2023-01-17 14:05:41,926 - utils_logger - INFO - {'precision': 0.877030162412993, 'recall': 0.5897035881435257, 'f1_macro': 0.7725714134494701, 'f1_weighted': 0.7832285082737915}
+2023-01-17 14:08:24,716 - utils_logger - INFO - Model Name: random_forest, Fold: 3
+2023-01-17 14:08:24,716 - utils_logger - INFO - {'precision': 0.8778054862842892, 'recall': 0.5432098765432098, 'f1_macro': 0.7490915085616807, 'f1_weighted': 0.7606700974566497}
+2023-01-17 14:11:14,366 - utils_logger - INFO - Model Name: random_forest, Fold: 4
+2023-01-17 14:11:14,367 - utils_logger - INFO - {'precision': 0.8554216867469879, 'recall': 0.5362537764350453, 'f1_macro': 0.7363300399016455, 'f1_weighted': 0.7463590149277047}
+2023-01-17 14:14:00,950 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-01-17 14:14:00,950 - utils_logger - INFO - {'precision': 0.8456659619450317, 'recall': 0.6309148264984227, 'f1_macro': 0.7821724289101237, 'f1_weighted': 0.7921344292736519}
+2023-01-17 14:16:55,105 - utils_logger - INFO - Model Name: logistic_regression, Fold: 1
+2023-01-17 14:16:55,105 - utils_logger - INFO - {'precision': 0.8411764705882353, 'recall': 0.6253644314868805, 'f1_macro': 0.7673443008225617, 'f1_weighted': 0.7722969616680542}
+2023-01-17 14:19:34,151 - utils_logger - INFO - Model Name: logistic_regression, Fold: 2
+2023-01-17 14:19:34,151 - utils_logger - INFO - {'precision': 0.8598726114649682, 'recall': 0.6318252730109204, 'f1_macro': 0.7861321077574341, 'f1_weighted': 0.79526492247737}
+2023-01-17 14:22:24,751 - utils_logger - INFO - Model Name: logistic_regression, Fold: 3
+2023-01-17 14:22:24,752 - utils_logger - INFO - {'precision': 0.832, 'recall': 0.6419753086419753, 'f1_macro': 0.7790360046457607, 'f1_weighted': 0.7870985514811033}
+2023-01-17 14:24:58,502 - utils_logger - INFO - Model Name: logistic_regression, Fold: 4
+2023-01-17 14:24:58,502 - utils_logger - INFO - {'precision': 0.8375241779497099, 'recall': 0.6540785498489426, 'f1_macro': 0.783346181045872, 'f1_weighted': 0.7896979743068877}
+2023-01-17 14:25:10,121 - utils_logger - INFO - Model Name: linear_svc, Fold: 0
+2023-01-17 14:25:10,121 - utils_logger - INFO - {'precision': 0.7912713472485768, 'recall': 0.6577287066246057, 'f1_macro': 0.7724357260844831, 'f1_weighted': 0.7814920724915084}
+2023-01-17 14:25:21,433 - utils_logger - INFO - Model Name: linear_svc, Fold: 1
+2023-01-17 14:25:21,433 - utils_logger - INFO - {'precision': 0.8064516129032258, 'recall': 0.619533527696793, 'f1_macro': 0.7513529777654245, 'f1_weighted': 0.7563708788612076}
+2023-01-17 14:25:33,130 - utils_logger - INFO - Model Name: linear_svc, Fold: 2
+2023-01-17 14:25:33,130 - utils_logger - INFO - {'precision': 0.8128440366972477, 'recall': 0.6911076443057722, 'f1_macro': 0.792879290648969, 'f1_weighted': 0.8001315054957602}
+2023-01-17 14:25:44,683 - utils_logger - INFO - Model Name: linear_svc, Fold: 3
+2023-01-17 14:25:44,683 - utils_logger - INFO - {'precision': 0.8195777351247601, 'recall': 0.6589506172839507, 'f1_macro': 0.7812694610778443, 'f1_weighted': 0.7888023794723301}
+2023-01-17 14:25:56,752 - utils_logger - INFO - Model Name: linear_svc, Fold: 4
+2023-01-17 14:25:56,752 - utils_logger - INFO - {'precision': 0.8197343453510436, 'recall': 0.6525679758308157, 'f1_macro': 0.7757294516899069, 'f1_weighted': 0.7821128561650846}
+2023-01-17 15:41:17,134 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 0
+2023-01-17 15:41:17,134 - utils_logger - INFO - {'precision': 0.8475336322869955, 'recall': 0.5962145110410094, 'f1_macro': 0.7675991861648017, 'f1_weighted': 0.7789175003289674}
+2023-01-17 15:41:21,874 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 1
+2023-01-17 15:41:21,875 - utils_logger - INFO - {'precision': 0.8799076212471132, 'recall': 0.5553935860058309, 'f1_macro': 0.7478515410332358, 'f1_weighted': 0.754483087606186}
+2023-01-17 15:41:26,405 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 2
+2023-01-17 15:41:26,405 - utils_logger - INFO - {'precision': 0.869757174392936, 'recall': 0.6146645865834633, 'f1_macro': 0.7817651047442082, 'f1_weighted': 0.7914925483698759}
+2023-01-17 15:41:30,789 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 3
+2023-01-17 15:41:30,789 - utils_logger - INFO - {'precision': 0.8693693693693694, 'recall': 0.595679012345679, 'f1_macro': 0.7715126403650994, 'f1_weighted': 0.7810980299509197}
+2023-01-17 15:41:35,167 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 4
+2023-01-17 15:41:35,167 - utils_logger - INFO - {'precision': 0.8781609195402299, 'recall': 0.5770392749244713, 'f1_macro': 0.7627062460583776, 'f1_weighted': 0.7713263226029112}
+2023-01-17 15:42:36,802 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 0
+2023-01-17 15:42:36,802 - utils_logger - INFO - {'precision': 0.8490566037735849, 'recall': 0.5806451612903226, 'f1_macro': 0.7623428611559802, 'f1_weighted': 0.7751018703500875}
+2023-01-17 15:42:41,533 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 1
+2023-01-17 15:42:41,534 - utils_logger - INFO - {'precision': 0.8907766990291263, 'recall': 0.5461309523809523, 'f1_macro': 0.7473200096964474, 'f1_weighted': 0.7546625303101459}
+2023-01-17 15:45:15,667 - utils_logger - INFO - Model Name: random_forest, Fold: 0
+2023-01-17 15:45:15,668 - utils_logger - INFO - {'precision': 0.8408488063660478, 'recall': 0.5112903225806451, 'f1_macro': 0.7277002564131978, 'f1_weighted': 0.7438127755463986}
+2023-01-17 15:47:50,657 - utils_logger - INFO - Model Name: random_forest, Fold: 1
+2023-01-17 15:47:50,658 - utils_logger - INFO - {'precision': 0.8271889400921659, 'recall': 0.5342261904761905, 'f1_macro': 0.7222724532851115, 'f1_weighted': 0.7299170454577399}
+2023-01-17 15:50:15,256 - utils_logger - INFO - Model Name: random_forest, Fold: 2
+2023-01-17 15:50:15,257 - utils_logger - INFO - {'precision': 0.8765133171912833, 'recall': 0.5801282051282052, 'f1_macro': 0.7691961980484208, 'f1_weighted': 0.7810500709358663}
+2023-01-17 16:00:37,157 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 0
+2023-01-17 16:00:37,157 - utils_logger - INFO - {'precision': 0.8678756476683938, 'recall': 0.5456026058631922, 'f1_macro': 0.7525824175824176, 'f1_weighted': 0.7676024042579673}
+2023-01-17 16:00:41,564 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 1
+2023-01-17 16:00:41,564 - utils_logger - INFO - {'precision': 0.8923766816143498, 'recall': 0.5896296296296296, 'f1_macro': 0.7686499247605403, 'f1_weighted': 0.7745420070619863}
+2023-01-17 16:00:45,957 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 2
+2023-01-17 16:00:45,957 - utils_logger - INFO - {'precision': 0.8735362997658079, 'recall': 0.5583832335329342, 'f1_macro': 0.7491342877598274, 'f1_weighted': 0.7565934473709279}
+2023-01-17 16:00:50,355 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 3
+2023-01-17 16:00:50,355 - utils_logger - INFO - {'precision': 0.8486238532110092, 'recall': 0.6016260162601627, 'f1_macro': 0.7722611659154296, 'f1_weighted': 0.7845317342959062}
+2023-01-17 16:00:54,858 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 4
+2023-01-17 16:00:54,858 - utils_logger - INFO - {'precision': 0.8719806763285024, 'recall': 0.5766773162939297, 'f1_macro': 0.7659929356357928, 'f1_weighted': 0.7778576138147567}
+2023-01-17 16:03:42,270 - utils_logger - INFO - Model Name: random_forest, Fold: 0
+2023-01-17 16:03:42,270 - utils_logger - INFO - {'precision': 0.8521739130434782, 'recall': 0.4788273615635179, 'f1_macro': 0.7157714967612392, 'f1_weighted': 0.7344382238111723}
+2023-01-17 16:06:39,490 - utils_logger - INFO - Model Name: random_forest, Fold: 1
+2023-01-17 16:06:39,490 - utils_logger - INFO - {'precision': 0.8843373493975903, 'recall': 0.5437037037037037, 'f1_macro': 0.7436010133967985, 'f1_weighted': 0.7506637610420864}
+2023-01-17 16:09:09,732 - utils_logger - INFO - Model Name: random_forest, Fold: 2
+2023-01-17 16:09:09,732 - utils_logger - INFO - {'precision': 0.8671328671328671, 'recall': 0.5568862275449101, 'f1_macro': 0.7464557358771358, 'f1_weighted': 0.7539574017203511}
+2023-01-17 16:11:44,756 - utils_logger - INFO - Model Name: random_forest, Fold: 3
+2023-01-17 16:11:44,756 - utils_logger - INFO - {'precision': 0.8691099476439791, 'recall': 0.5398373983739837, 'f1_macro': 0.7498736849590208, 'f1_weighted': 0.7649713093348943}
+2023-01-17 16:13:57,372 - utils_logger - INFO - Model Name: random_forest, Fold: 4
+2023-01-17 16:13:57,373 - utils_logger - INFO - {'precision': 0.8217821782178217, 'recall': 0.5303514376996805, 'f1_macro': 0.7294366960721503, 'f1_weighted': 0.7434530777191859}
+2023-01-17 16:16:05,552 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-01-17 16:16:05,552 - utils_logger - INFO - {'precision': 0.8248337028824834, 'recall': 0.6058631921824105, 'f1_macro': 0.7664356817206803, 'f1_weighted': 0.7787750875514593}
+2023-01-17 16:18:46,919 - utils_logger - INFO - Model Name: logistic_regression, Fold: 1
+2023-01-17 16:18:46,920 - utils_logger - INFO - {'precision': 0.8834745762711864, 'recall': 0.6177777777777778, 'f1_macro': 0.7791905286731824, 'f1_weighted': 0.7844293854159462}
+2023-01-17 16:21:25,571 - utils_logger - INFO - Model Name: logistic_regression, Fold: 2
+2023-01-17 16:21:25,571 - utils_logger - INFO - {'precision': 0.8771551724137931, 'recall': 0.6092814371257484, 'f1_macro': 0.7745138980744883, 'f1_weighted': 0.7806074245823483}
+2023-01-17 16:23:49,758 - utils_logger - INFO - Model Name: logistic_regression, Fold: 3
+2023-01-17 16:23:49,758 - utils_logger - INFO - {'precision': 0.8426724137931034, 'recall': 0.6357723577235772, 'f1_macro': 0.7850690794250562, 'f1_weighted': 0.7959273895325024}
+2023-01-17 16:26:40,500 - utils_logger - INFO - Model Name: logistic_regression, Fold: 4
+2023-01-17 16:26:40,500 - utils_logger - INFO - {'precision': 0.8007968127490039, 'recall': 0.6421725239616614, 'f1_macro': 0.7698445171849427, 'f1_weighted': 0.7792815057283142}
+2023-01-17 16:26:51,930 - utils_logger - INFO - Model Name: linear_svc, Fold: 0
+2023-01-17 16:26:51,930 - utils_logger - INFO - {'precision': 0.7970085470085471, 'recall': 0.6074918566775245, 'f1_macro': 0.757231977818854, 'f1_weighted': 0.769557540813826}
+2023-01-17 16:27:03,098 - utils_logger - INFO - Model Name: linear_svc, Fold: 1
+2023-01-17 16:27:03,098 - utils_logger - INFO - {'precision': 0.852670349907919, 'recall': 0.6859259259259259, 'f1_macro': 0.798292797867562, 'f1_weighted': 0.8021186079176799}
+2023-01-17 16:27:13,594 - utils_logger - INFO - Model Name: linear_svc, Fold: 2
+2023-01-17 16:27:13,595 - utils_logger - INFO - {'precision': 0.8135283363802559, 'recall': 0.6661676646706587, 'f1_macro': 0.7753206168924629, 'f1_weighted': 0.7800266157308322}
+2023-01-17 16:27:24,264 - utils_logger - INFO - Model Name: linear_svc, Fold: 3
+2023-01-17 16:27:24,264 - utils_logger - INFO - {'precision': 0.775894538606403, 'recall': 0.6699186991869919, 'f1_macro': 0.7726720773536206, 'f1_weighted': 0.7823289675076388}
+2023-01-17 16:27:35,416 - utils_logger - INFO - Model Name: linear_svc, Fold: 4
+2023-01-17 16:27:35,416 - utils_logger - INFO - {'precision': 0.77196261682243, 'recall': 0.6597444089456869, 'f1_macro': 0.7646457110017942, 'f1_weighted': 0.7734398024616418}
+2023-01-17 16:27:39,907 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 0
+2023-01-17 16:27:39,907 - utils_logger - INFO - {'precision': 0.8678756476683938, 'recall': 0.5456026058631922, 'f1_macro': 0.7525824175824176, 'f1_weighted': 0.7676024042579673}
+2023-01-17 16:27:44,234 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 1
+2023-01-17 16:27:44,234 - utils_logger - INFO - {'precision': 0.8923766816143498, 'recall': 0.5896296296296296, 'f1_macro': 0.7686499247605403, 'f1_weighted': 0.7745420070619863}
+2023-01-17 16:27:48,594 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 2
+2023-01-17 16:27:48,595 - utils_logger - INFO - {'precision': 0.8735362997658079, 'recall': 0.5583832335329342, 'f1_macro': 0.7491342877598274, 'f1_weighted': 0.7565934473709279}
+2023-01-17 16:27:53,011 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 3
+2023-01-17 16:27:53,011 - utils_logger - INFO - {'precision': 0.8486238532110092, 'recall': 0.6016260162601627, 'f1_macro': 0.7722611659154296, 'f1_weighted': 0.7845317342959062}
+2023-01-17 16:27:57,566 - utils_logger - INFO - Model Name: multinomial_nb, Fold: 4
+2023-01-17 16:27:57,566 - utils_logger - INFO - {'precision': 0.8719806763285024, 'recall': 0.5766773162939297, 'f1_macro': 0.7659929356357928, 'f1_weighted': 0.7778576138147567}

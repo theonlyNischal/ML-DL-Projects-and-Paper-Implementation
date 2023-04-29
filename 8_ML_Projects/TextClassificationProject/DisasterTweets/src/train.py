@@ -1,4 +1,6 @@
 import utils
+from utils import create_folder_if_not_exists, plot_confusion_matrix, compute_metrics
+from utils_logger import initialize_logger
 import config
 import model_dispatcher
 from hyperparameter_search import perform_hyperparameter_search
@@ -13,6 +15,8 @@ import pandas as pd
 from scipy.sparse import hstack
 from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import precision_score, recall_score, f1_score
+from sklearn.metrics import classification_report
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 
 def train(fold, model_name):
@@ -65,15 +69,25 @@ def train(fold, model_name):
     model = perform_hyperparameter_search(X_train, y_train, model_name)
     # # Fit the model in the training data
     # model.fit(X_train, y_train)
+    print("-----------------------------------------------")
     # # Make the prediction on the validation data
     y_pred = model.predict(X_val)
+    # Save confusion matrix
+    create_folder_if_not_exists(config.VISUAL_OUTPUT)
+    plot_confusion_matrix(y_pred, y_valid, np.unique(y_train), Path(config.VISUAL_OUTPUT) / f"cf_{model_name}", model_name)
     # Calculate the accuracy on the validation data
     accuracy = accuracy_score(y_pred, y_valid)
     print(f"Fold: {fold}, Accuracy: {accuracy}")
     auc = roc_auc_score(y_pred, y_valid)
     print(f"Fold: {fold}, AUC: {auc}")
-
+    # Compute precision and recall
+    metrics = compute_metrics(y_valid, y_pred)
+    logger.info(f"Model Name: {model_name}, Fold: {fold}")
+    logger.info(metrics)
+    print(classification_report(y_true = y_valid, y_pred = y_pred))
+    print("-----------------------------------------------")
     # Save the model
+    create_folder_if_not_exists(config.MODEL_OUTPUT)
     joblib.dump(
         model,
         Path(config.MODEL_OUTPUT) / f"{model_name}_{fold}.bin"
@@ -82,8 +96,11 @@ def train(fold, model_name):
     joblib.dump(
         vectorizer,
         Path(config.MODEL_OUTPUT) / f"vectorizer_{model_name}_{fold}.bin")
+    
+    return model, vectorizer
 
 if __name__ == "__main__":
+    logger = initialize_logger()
     # Initialize ArgumentParser
     parser = argparse.ArgumentParser()
     # Add different arguments we need
