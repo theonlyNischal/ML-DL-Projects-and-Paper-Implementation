@@ -1,0 +1,14 @@
+2023-08-27 14:55:42,662 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-08-27 14:55:42,662 - utils_logger - INFO - {'precision': 0.9373784519642162, 'recall': 0.9029599100786811, 'f1_macro': 0.9086791546052999, 'f1_weighted': 0.9102793919504432}
+2023-08-27 15:02:08,771 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-08-27 15:02:08,771 - utils_logger - INFO - {'precision': 0.9373784519642162, 'recall': 0.9029599100786811, 'f1_macro': 0.9086791546052999, 'f1_weighted': 0.9102793919504432}
+2023-12-27 20:25:57,105 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-12-27 20:25:57,106 - utils_logger - INFO - {'precision': 0.9373784519642162, 'recall': 0.9029599100786811, 'f1_macro': 0.9086791546052999, 'f1_weighted': 0.9102793919504432}
+2023-12-28 09:34:31,532 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-12-28 09:34:31,536 - utils_logger - INFO - {'precision': 0.8034267472167781, 'recall': 0.8430112997943565, 'f1_macro': 0.8292539905258985, 'f1_weighted': 0.8296528265775056}
+2023-12-28 10:16:48,897 - utils_logger - INFO - Model Name: linear_svc, Fold: 0
+2023-12-28 10:16:48,902 - utils_logger - INFO - {'precision': 0.7883480825958702, 'recall': 0.8612012126608578, 'f1_macro': 0.826272389890774, 'f1_weighted': 0.8264626883481075}
+2023-12-28 11:15:07,293 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-12-28 11:15:07,293 - utils_logger - INFO - {'precision': 0.6999457406402605, 'recall': 0.6837117598422693, 'f1_macro': 0.7124764997925739, 'f1_weighted': 0.7137471607870218}
+2023-12-28 11:50:55,587 - utils_logger - INFO - Model Name: logistic_regression, Fold: 0
+2023-12-28 11:50:55,587 - utils_logger - INFO - {'precision': 0.8034267472167781, 'recall': 0.8430112997943565, 'f1_macro': 0.8292539905258985, 'f1_weighted': 0.8296528265775056}
